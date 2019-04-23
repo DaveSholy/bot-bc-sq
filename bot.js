@@ -2,19 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
  
 
-client.on('ready', () => {
-   console.log(`ـــــــــــــــــــ`);
-      console.log(`Welcome MdAx77x | Welcome To Evel Gates`);
-        console.log(`ــــــــــــــــ`);
-      console.log(`ON ${client.guilds.size} Server`);
-console.log(`This Code Was Made By : Mdax77x`);   
-console.log(`MdAx77x CopyRight `);
- console.log(`ــــــــــــــــ`);
-  console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`KingBot `)
-client.user.setStatus("offline")
- 
-});
+
 
 client.on("message", message => {
         if (message.author.id === client.user.id) return;
